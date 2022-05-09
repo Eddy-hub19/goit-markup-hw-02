@@ -5,8 +5,66 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul li {
     list-style: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-top ul {
+    display: flex;
+}
+
+main {
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2F303A;
+    height: 600px;
+}
+
+.our-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+}
+
+.what-we-do {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+}
+
+.what-we-do ul {
+    display: flex;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-teams {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-teams ul {
+    justify-content: space-around;
 }
