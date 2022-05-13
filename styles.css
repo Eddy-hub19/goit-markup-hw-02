@@ -19,7 +19,7 @@ ul li {
 
 /* for footer link  */
 
-.c-white {
+.color-white {
     color: white;
 }
 
@@ -34,15 +34,13 @@ ul li {
 }
 
 .header-top a {
-    font-style: normal;
     font-weight: 500;
     line-height: 14px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02;
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -85,7 +83,6 @@ main {
 
 section h2 {
     margin-bottom: 50px;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -107,8 +104,7 @@ section h2 {
 }
 
 .banner h1 {
-    width: 696px;
-    font-style: normal;
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -119,7 +115,6 @@ section h2 {
 }
 
 .banner button {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -153,7 +148,6 @@ section h2 {
 }
 
 .list h3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -170,8 +164,6 @@ section h2 {
 
 .list p {
     margin-top: 10px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -263,8 +255,6 @@ address {
 }
 
 .footer-list a {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
