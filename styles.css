@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-bg-color: #2F303A;
+    --title-text-color: #212121;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -14,13 +19,6 @@ a {
 ul li {
     list-style: none;
     margin: 0;
-}
-
-
-/* for footer link  */
-
-.color-white {
-    color: white;
 }
 
 
@@ -40,7 +38,7 @@ ul li {
 }
 
 .nav-list a {
-    color: #212121;
+    color: var(--title-text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -71,14 +69,14 @@ section h2 {
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 
 /* banner  */
 
 .banner {
-    background: #2F303A;
+    background: var(--primary-bg-color);
 }
 
 .banner-title {
@@ -116,7 +114,7 @@ section h2 {
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .features-list li {
@@ -146,7 +144,7 @@ section h2 {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .teams-item>p {
@@ -161,7 +159,7 @@ section h2 {
 
 footer {
     width: 100%;
-    background: #2F303A;
+    background: var(--primary-bg-color);
 }
 
 .footer-logo {
@@ -185,6 +183,13 @@ footer a {
 
 .link {
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* for footer link  */
+
+.color-white {
+    color: white;
 }
 
 address {
@@ -224,7 +229,7 @@ address {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .store-item p {
