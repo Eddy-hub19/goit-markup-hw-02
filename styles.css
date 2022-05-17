@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,6 +13,7 @@ a {
 
 ul li {
     list-style: none;
+    margin: 0;
 }
 
 
@@ -26,13 +26,7 @@ ul li {
 
 /* header  */
 
-.header-top a {
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.02em;
-}
-
-.logo {
+.header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -48,11 +42,17 @@ ul li {
 .nav-list a {
     color: #212121;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
-.social-link a {
+.header-links a {
     color: #757575;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-top ul li a:hover {
@@ -81,8 +81,7 @@ section h2 {
     background: #2F303A;
 }
 
-.banner h1 {
-    width: 696px;
+.banner-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -92,7 +91,7 @@ section h2 {
     color: #FFFFFF;
 }
 
-.banner button {
+.banner-btn {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -104,14 +103,14 @@ section h2 {
     cursor: pointer;
 }
 
-.banner button:hover {
+.banner-btn:hover {
     background: #757575;
 }
 
 
-/* our-features  */
+/* features  */
 
-.list h3 {
+.features-list h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -120,12 +119,12 @@ section h2 {
     color: #212121;
 }
 
-.list li {
+.features-list li {
     width: 270px;
     text-align: left;
 }
 
-.list p {
+.features-list p {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -133,15 +132,15 @@ section h2 {
 }
 
 
-/* our-teams  */
+/* teams  */
 
-.item {
+.teams-items {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.item>h3 {
+.teams-item>h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -150,9 +149,7 @@ section h2 {
     color: #212121;
 }
 
-.item>p {
-    font-weight: 400;
-    font-size: 16px;
+.teams-item>p {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
@@ -167,12 +164,20 @@ footer {
     background: #2F303A;
 }
 
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
 footer a {
     color: white;
 }
 
 .footer-list a {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -182,18 +187,27 @@ footer a {
     color: rgba(255, 255, 255, 0.6);
 }
 
+address {
+    font-style: normal;
+}
+
 
 /* portfolio  */
 
-.main-list button {
+.main-list-btn {
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
     background: #F5F4FA;
+    text-align: center;
+    letter-spacing: 0.03em;
     border-radius: 4px;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.main-list button:hover {
+.main-list-btn:hover {
     color: white;
     background: #2196f3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -214,8 +228,6 @@ footer a {
 }
 
 .store-item p {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: #757575;
